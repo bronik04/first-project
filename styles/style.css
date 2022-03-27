@@ -9,7 +9,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* font-family: 'Helvetica Neue', Arial, sans-serif; */
 }
 
 .logo_place_header {
@@ -23,6 +23,9 @@
 }
 
 .header__title {
+  font-size: 102px;
+  line-height: 96px;
+  font-family: Inter-SemiBold;
   position: relative;
   left: 64px;
   width: 730px;
