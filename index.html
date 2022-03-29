@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/fonts.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
     <title>Научиться учиться</title>
   </head>
   <body>
@@ -50,7 +50,7 @@
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
           <div class="cards">
             <div class="cards__item">
-              <img class="cards__image" src="/images/cards-attention.png" alt="Человек держет белую книгу."></img>
+              <img class="cards__image" src="/images/cards-attention.png" alt="Человек держет белую книгу.">
               <h3 class="cards__title">Два вида внимания</h3>
               <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
             </div>
@@ -75,6 +75,36 @@
               <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
             </div>
           </div>
+        </section>
+
+        <!-- TODO Секция видео -->
+        <section class="video page__block-gap">
+          <h2 class="section-title">Видео нa TED</h2>
+          <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+          <div class="video">
+            <div class="video__wrap">
+              <iframe src="https://www.youtube.com/embed/J_89IMS5gJQ" frameborder="0" class="video__iframe"></iframe>
+              <iframe src="https://www.youtube.com/embed/0u3bccaRmmg" frameborder="0" class="video__iframe"></iframe>
+            </div>
+          </div>
+        </section>
+        <!-- TODO Секция Оакли -->
+        <section class="oakley">
+          <div class="two-columns">
+            <h2 class="two-columns__brief">История Барбары Оакли</h2>
+            <div class="two-columns__main-text">
+              <p class="two-columns__paragraph">
+                С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
+              </p>
+          </div>
+
+        </section>
+        <!-- TODO Секция Feynman -->
+        <section class="feynman">
+          <h1 class="feynman__title">Метод Фейнмана</h1>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
+          <a href="#" class="feynman__link">Подробнее →</a>
+          <div class="feynman__img"></div>
         </section>
         <section class="digits page__block-gap">
           <h2 class="section-title">Цифры и факты</h2>
@@ -115,6 +145,22 @@
               <p class="table__text">Открытие условного рефлекса</p>
             </div>
           </div>
+        </section>
+        <!-- Todo Добавляем книгу -->
+        <section class="khan">
+          <div class="khan__contanier">
+            <p class="khan__author">Салман Хан</p>
+            <h1 class="khan__title">Весь мир — школа</h1>
+            <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            <h2 class="khan__quote-author">Джордж Лукас</h2>
+            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+            <div class="khan__book-container">
+              <div class="khan__book-pic"></div>
+              <a class="khan__buy-link"></a>
+            </div>
+
+          </div>
+
         </section>
         <section class="kaufman page__block-gap">
           <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -184,19 +230,22 @@
 
           <div class="footer__column_content_info">
             <h3 class="column-heading">О Практикуме</h3>
-            <div class="column-links">
-              <a href="" class="footer__link">Главная</a>
-              <a href="" class="footer__link">Концепция</a>
-              <a href="" class="footer__link">Наставники</a>
-            </div>
+            <ul class="column-links">
+              <li><a href="" class="footer__link">Главная</a></li>
+              <li><a href="" class="footer__link">Концепция</a></li>
+              <li><a href="" class="footer__link">Наставники</a></li>
+            </ul>
           </div>
 
           <div class="footer__column_content_social">
             <h3 class="column-heading">Соцсети</h3>
-            <div class="footer__social-icon"></div>
-            <div class="column-link"></div>
+            <img class="footer__social-icon">
+            <ul class="column-link">
+              <li class="footer_link"><a href="#"><img src="/images/facebook_white.svg" alt="">Facebook</a></li>
+              <li class="footer_link"><a href="#"><img src="/images/vk_white.svg" alt="">Вконтакте</a></li>
+              <li class="footer_link"><a href="#"><img src="/images/instagram_white.svg" alt="">Instagram</a></li>
+            </ul>
           </div>
-
         </div>
       </footer>
     </div>
