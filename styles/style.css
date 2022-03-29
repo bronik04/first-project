@@ -29,7 +29,17 @@
 @import url(/blocks/table/__heading/table__heading.css);
 @import url(/blocks/table/__text/table__text.css);
 
-@import url(/blocks/);
+@import url(/blocks/kaufman/kaufman.css);
+@import url(/blocks/section-title/_theme/section-title_theme_dark.css);
+@import url(/blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(/blocks/table/__cell/_theme/table__cell_theme_dark.css);
+
+@import url(/blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(/blocks/resources/__logo/resources__logo.css);
+
+@import url(/blocks/footer/footer.css);
+@import url(/blocks/footer/__columns/footer__columns.css);
+@import url(/blocks/footer/__columns/_copyright/footer__column_copyright.css);
 
 
 .page {
@@ -43,10 +53,10 @@
   /* font-family: 'Helvetica Neue', Arial, sans-serif; */
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  /* color: white; */
-  margin-right: 0;
-  margin-top: 80px;
+.page__block-gap {
+  margin-top: 100px;
+}
+
+.page__block-aling {
+  margin: 0 auto;
 }
