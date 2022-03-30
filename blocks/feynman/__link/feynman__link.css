@@ -2,5 +2,10 @@
   line-height: 51px;
   font-size: 35px;
   font-family: Inter-Regular;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+
 
 }

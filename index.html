@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/styles/fonts.css" />
     <link rel="stylesheet" href="/styles/index.css" />
     <title>Научиться учиться</title>
+    <link rel="icon" type="image" href="/favicon.png">
   </head>
   <body>
     <div class="page">
@@ -104,7 +105,7 @@
           <h1 class="feynman__title">Метод Фейнмана</h1>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
           <a href="#" class="feynman__link">Подробнее →</a>
-          <div class="feynman__img"></div>
+          <img class="feynman__img" src="/images/feinman.png">
         </section>
         <section class="digits page__block-gap">
           <h2 class="section-title">Цифры и факты</h2>
@@ -155,8 +156,8 @@
             <h2 class="khan__quote-author">Джордж Лукас</h2>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
-              <div class="khan__book-pic"></div>
-              <a class="khan__buy-link"></a>
+              <img class="khan__book-pic" src="/images/khan-book.jpg" alt="Обложка книги">
+              <a class="khan__buy-link" href="#">Купить книгу →</a>
             </div>
 
           </div>
@@ -225,26 +226,33 @@
 
           <div class="footer__column_copyright">
             <div class="logo_place_footer"></div>
-            <p class="footer__autor">Виктор Абанькин</p>
+            <p class="footer__autor">© Виктор Абанькин</p>
           </div>
 
           <div class="footer__column_content_info">
-            <h3 class="column-heading">О Практикуме</h3>
-            <ul class="column-links">
-              <li><a href="" class="footer__link">Главная</a></li>
-              <li><a href="" class="footer__link">Концепция</a></li>
-              <li><a href="" class="footer__link">Наставники</a></li>
-            </ul>
+            <h3 class="footer__column-heading">О Практикуме</h3>
+            <!-- todo Переиминовать класс -->
+            <nav class="column-links">
+              <a href="" class="footer__nav-item">Главная</a>
+              <a href="" class="footer__nav-item">Концепция</a>
+              <a href="" class="footer__nav-item">Наставники</a>
+            </nav>
           </div>
 
           <div class="footer__column_content_social">
-            <h3 class="column-heading">Соцсети</h3>
-            <img class="footer__social-icon">
-            <ul class="column-link">
-              <li class="footer_link"><a href="#"><img src="/images/facebook_white.svg" alt="">Facebook</a></li>
-              <li class="footer_link"><a href="#"><img src="/images/vk_white.svg" alt="">Вконтакте</a></li>
-              <li class="footer_link"><a href="#"><img src="/images/instagram_white.svg" alt="">Instagram</a></li>
-            </ul>
+            <h3 class="footer__column-heading">Соцсети</h3>
+            <div class="footer__column-link">
+
+                <!-- todo Костыль с классами -->
+                <a href="#" class="footer__social-link footer__nav-item"><img class="footer__social-icon" src="/images/facebook_white.svg" alt=""> Facebook</a>
+
+
+                <a href="#" class="footer__social-link footer__nav-item"><img class="footer__social-icon" src="/images/vk_white.svg" alt=""> Вконтакте</a>
+
+              <li class="footer_link">
+                <a href="#" class="footer__social-link footer__nav-item"><img class="footer__social-icon" src="/images/instagram_white.svg" alt=""> Instagram</a>
+
+            </div>
           </div>
         </div>
       </footer>
