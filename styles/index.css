@@ -1,5 +1,9 @@
 @import url(/vendor/normalize.css);
 
+@import url(/blocks/page/page.css);
+@import url(/blocks/page/__block-gap/page__block-gap.css);
+@import url(/blocks/page/__block-aling/page__block-aling.css);
+
 @import url(/blocks/header/header.css);
 @import url(/blocks/header/__title/header__title.css);
 @import url(/blocks/header/__subtitle/header__subtitle.css);
@@ -27,6 +31,7 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__wrap/video__wrap.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
+@import url(/blocks/page/__subtitle-gap/page__subtitle-gap.css);
 
 @import url(../blocks/oakley/oakley.css);
 
@@ -70,22 +75,3 @@
 @import url(/blocks/footer/__nav-item/footer__nav-item.css);
 @import url(/blocks/footer/__column-link/footer__column-link.css);
 @import url(/blocks/footer/__social-icon/footer__social-icon.css);
-
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  /* font-family: 'Helvetica Neue', Arial, sans-serif; */
-}
-
-.page__block-gap {
-  margin-top: 100px;
-}
-
-.page__block-aling {
-  margin: 0 auto;
-}

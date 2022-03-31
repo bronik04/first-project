@@ -4,6 +4,6 @@
   font-family: Inter-Bold;
   width: 648px;
   text-align: center;
-  margin:100px auto 70px;
-
+  margin:0 auto 70px;
+  z-index: 1;
 }
